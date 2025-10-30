@@ -34,3 +34,39 @@ A sequential CNN model was built with the following architecture:
 8.  **Dense (Output):** 10 units, `softmax` activation
 
 **Model Summary:**
+
+## 4. Instructions for Running the Code
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [URL_OF_YOUR_REPO]
+    cd [REPO_NAME]
+    ```
+
+2.  **Create a virtual environment (Recommended):**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    ```
+
+3.  **Install the dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4.  **Run the code:**
+    * If you saved as a Python file (`.py`):
+        ```bash
+        python mnist_cnn.py
+        ```
+    * If you saved as a Jupyter Notebook (`.ipynb`):
+        ```bash
+        jupyter notebook mnist_cnn.ipynb
+        ```
+
+## 5. Evaluation Metrics and Results
+
+The model was trained for 10 epochs and evaluated on the 10,000-image test set.
+
+* **Test Loss:** `[Enter your test loss, e.g., 0.0285]`
+* **Test Accuracy:** `[Enter your test accuracy, e.g., 99.15%]`
